@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um bot que irá moderar e deixar a sua comunidade segura de um jeito fácil">
+    <title>Balle Bot - Modere a sua comunidade do Discord</title>
+    
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mobile.css">
+    <link rel="stylesheet" href="style/tablet.css">
+    
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/modal.js"></script>
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <img src="imagens/logo.svg" class="cabecalho-imagem" alt="Logo da Comunidade ballerini">
+
+        <div class="abrir-menu" onclick="menuMobile(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <nav class="cabecalho-menu"></nav>
+
+        <div class="menu-desktop">
+            <a href="#" class="links">Comunidade ballerini</a>
+            <a href="#" class="links" onclick="abrirModal()">Tutorial</a>
+            <a href="#" class="links">Open Source</a>
+            <a href="#" class="links">Comandos</a>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <article class="dialogo"></article>
+
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Balle Bot</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Deixe a sua comunidade segura de um jeito fácil</h2>
+                <button class="conteudo-principal-escrito-botao">Me adicione</button>
+            </div>
+
+            <div class="container_img">
+                <img src="imagens/ballebot.svg" class="conteudo-principal-imagem" alt="Imagem da Balle Bot" onmouseenter="mostrar()" onmouseleave="ocultar()" />
+            </div>
+        </section>
+
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">O que ela faz por você ?</h3>
+
+            <p class="conteudo-secundario-paragrafo">1. Cria um <strong>sistema de vereficação capcha</strong> para novos membros garantirem que não são rôbos</p>
+            <p class="conteudo-secundario-paragrafo">2. Possui um <strong>sistema de banimento automático</strong> para links suspeitos que forem enviados na comunidade</p>
+            <p class="conteudo-secundario-paragrafo">3. <strong>Sistema de avisos e banimento manual</strong>, para pessoas administradoras utilizarem</p>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <img src="imagens/ballerini.svg" class="rodape-imagem">
+    </footer>
+
+
+    <section class="container_modal">
+        
+        <article class="modal">
+
+            <h1>Tutorial</h1>
+
+            <article class="modal-conteudo">
+
+                <p>O primeiro passo que você deve seguir é: clique no botão " Me adicione ".</p>
+                
+                <div class="imagem1">
+                    <img src="imagens/parte1.PNG" alt="parte 1">
+                </div>
+
+                <p>Em seguida, cole ou digite a URL, selecione o tipo de verificação e aperte em " Verificar ".</p>
+
+                <div class="container_img">
+                    <img src="imagens/parte2.png" alt="parte 2" class="img">
+
+                    <img src="imagens/parte3.png" alt="parte 3" class="img">
+                </div>
+
+                <p>Se o resultado for positivo, será gerado o acesso ao link. <br/> Após a verificação, basta clicar no link e pronto !</p>
+
+                <div class="container_img">
+                    <img src="imagens/parte4.png" alt="parte 4" class="img">
+
+                    <img src="imagens/parte5.png" alt="parte 5" class="img">
+                </div>
+
+                <p>Caso, o resultado seja negativo, não será liberado o acesso ao link. <br/> Na verificação detalhada serão revelados os motivos da reprovação do acesso.</p>
+        
+            </article>
+
+            <img src="imagens/arrow-left-solid.svg" alt="voltar" class="icon" onclick="fecharModal()">
+
+        </article>
+    
+    </section>
+    
+</body>
+</html>
