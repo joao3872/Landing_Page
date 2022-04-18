@@ -81,6 +81,7 @@
     .conteudo .conteudo-principal .conteudo-principal-escrito {
         align-items: center;
         gap: 22px;
+        padding: 5px;
     }
 
     .conteudo .conteudo-principal .conteudo-principal-escrito .conteudo-principal-escrito-titulo {
