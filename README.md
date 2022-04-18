@@ -1,18 +1,18 @@
-## Landing Page da Balle Bot
+## Landing Page da Balle Bot 🤖
 
 ### Sobre:
 
-* É uma Landing Page, que foi criada pela Rafaella Ballerini !
+* É uma Landing Page, que foi criada pela <a href="" target="_blank">Rafaella Ballerini</a> !
 
 * Eu adicionei algumas mudanças, incluindo a responsividade da página !
 
-* E coloquei uma modal no link: Tutorial, para simular, como poderia ser uma parte da aparência e funcionalidade da Balle Bot.
+* E coloquei uma modal no link: Tutorial, para simular, como poderia ser uma parte da aparência e funcionalidade do sistema da Balle Bot.
 
-### Versão Mobile:
+### Versão Mobile 📱:
 
 <img src="imagens/Mobile.gif" height="500px" width="260px" />
 
-### Versão Desktop:
+### Versão Desktop 💻:
 
 <img src="imagens/Desktop.gif" />
 
