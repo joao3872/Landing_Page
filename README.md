@@ -2,7 +2,7 @@
 
 ### Sobre:
 
-* É uma Landing Page, que foi criada pela <a href="" target="_blank">Rafaella Ballerini</a> !
+* É uma Landing Page, que foi criada pela <a href="https://github.com/rafaballerini" target="_blank">Rafaella Ballerini</a> !
 
 * Eu adicionei algumas mudanças, incluindo a responsividade da página !
 
