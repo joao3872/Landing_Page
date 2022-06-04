@@ -14,6 +14,10 @@
 
 <img src="imagens/Mobile.gif" height="500px" width="260px" />
 
+### Tablet :
+
+<img src="imagens/tablet.gif" />
+
 ### Versão Desktop 💻:
 
 <img src="imagens/Desktop.gif" />
